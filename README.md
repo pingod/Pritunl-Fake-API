@@ -27,7 +27,7 @@ This is _optional_. You can simply use the default instance of this API (host is
 
 Just transfer the `www` files inside a public accessible root-folder on your _seperate_ Apache (really everthing with PHP support works) webserver. Also make sure your instance has a valid SSL-certificate (Let's encrypt is enough), otherwise it may won't work.
 
-A example Apache install process can be found ![here](docs/apacheinstall.md)
+A example Apache install process can be found under docs/apacheinstall.md
 When you want to test your instance, just open the public accessible url in your browser and append `/notification` to it - when you see some JSON with the text, everthing worked!
 
 
